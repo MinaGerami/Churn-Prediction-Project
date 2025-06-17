@@ -2,7 +2,7 @@
 
 This project focuses on predicting customer churn in the telecommunications industry using machine learning techniques. The goal is to analyze customer behavior and identify patterns that lead to churn.
 
-##Importance of Churn Prediction
+## Importance of Churn Prediction
 Churn prediction helps telecom companies identify customers likely to leave, allowing for timely retention strategies. It reduces customer acquisition costs and boosts long-term profitability by focusing on customer loyalty and satisfaction.
 
 ## Completed Steps
