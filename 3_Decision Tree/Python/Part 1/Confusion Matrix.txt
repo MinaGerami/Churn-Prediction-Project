@@ -1,0 +1,4 @@
+True Positives (TP): 145
+True Negatives (TN): 1017
+False Positives (FP): 63
+False Negatives (FN): 50

@@ -1,0 +1,424 @@
+if total_day_minutes <= 249.60:
+  if number_customer_service_calls <= 3.50:
+    if international_plan <= 0.50:
+      if total_day_charge <= 37.72:
+        if total_eve_minutes <= 325.95:
+          if state <= 12.50:
+            if total_night_calls <= 85.50:
+              if total_eve_charge <= 11.18:
+                if area_code <= 0.50:
+                  return 1
+                else:  # if area_code > 0.50
+                  return 0
+              else:  # if total_eve_charge > 11.18
+                if total_night_calls <= 84.50:
+                  return 0
+                else:  # if total_night_calls > 84.50
+                  if account_length <= 91.00:
+                    return 0
+                  else:  # if account_length > 91.00
+                    return 1
+            else:  # if total_night_calls > 85.50
+              return 0
+          else:  # if state > 12.50
+            if total_eve_calls <= 112.50:
+              if total_day_minutes <= 210.00:
+                if account_length <= 65.50:
+                  if total_day_charge <= 27.32:
+                    if total_intl_calls <= 2.50:
+                      if total_eve_charge <= 17.97:
+                        if total_eve_minutes <= 165.35:
+                          return 0
+                        else:  # if total_eve_minutes > 165.35
+                          if total_intl_charge <= 2.78:
+                            return 1
+                          else:  # if total_intl_charge > 2.78
+                            if total_eve_charge <= 17.78:
+                              return 0
+                            else:  # if total_eve_charge > 17.78
+                              return 1
+                      else:  # if total_eve_charge > 17.97
+                        return 0
+                    else:  # if total_intl_calls > 2.50
+                      if total_intl_charge <= 2.07:
+                        if area_code <= 1.50:
+                          return 0
+                        else:  # if area_code > 1.50
+                          if total_night_calls <= 110.00:
+                            return 0
+                          else:  # if total_night_calls > 110.00
+                            return 1
+                      else:  # if total_intl_charge > 2.07
+                        return 0
+                  else:  # if total_day_charge > 27.32
+                    return 0
+                else:  # if account_length > 65.50
+                  if state <= 26.50:
+                    if account_length <= 191.00:
+                      if total_day_charge <= 26.26:
+                        return 0
+                      else:  # if total_day_charge > 26.26
+                        if total_day_charge <= 26.28:
+                          return 1
+                        else:  # if total_day_charge > 26.28
+                          if state <= 25.50:
+                            if number_vmail_messages <= 26.50:
+                              return 0
+                            else:  # if number_vmail_messages > 26.50
+                              if number_vmail_messages <= 27.50:
+                                if total_day_minutes <= 181.65:
+                                  return 1
+                                else:  # if total_day_minutes > 181.65
+                                  return 0
+                              else:  # if number_vmail_messages > 27.50
+                                return 0
+                          else:  # if state > 25.50
+                            if total_intl_charge <= 2.74:
+                              if total_night_minutes <= 210.25:
+                                return 0
+                              else:  # if total_night_minutes > 210.25
+                                if number_customer_service_calls <= 1.00:
+                                  return 0
+                                else:  # if number_customer_service_calls > 1.00
+                                  return 1
+                            else:  # if total_intl_charge > 2.74
+                              return 0
+                    else:  # if account_length > 191.00
+                      if total_intl_minutes <= 11.30:
+                        return 1
+                      else:  # if total_intl_minutes > 11.30
+                        return 0
+                  else:  # if state > 26.50
+                    return 0
+              else:  # if total_day_minutes > 210.00
+                if total_eve_minutes <= 271.95:
+                  if total_day_minutes <= 210.15:
+                    return 1
+                  else:  # if total_day_minutes > 210.15
+                    if total_intl_charge <= 1.50:
+                      if total_intl_minutes <= 5.25:
+                        return 0
+                      else:  # if total_intl_minutes > 5.25
+                        return 1
+                    else:  # if total_intl_charge > 1.50
+                      if total_night_charge <= 12.38:
+                        return 0
+                      else:  # if total_night_charge > 12.38
+                        if total_day_minutes <= 216.05:
+                          return 0
+                        else:  # if total_day_minutes > 216.05
+                          return 1
+                else:  # if total_eve_minutes > 271.95
+                  if total_night_minutes <= 230.05:
+                    if total_night_calls <= 74.50:
+                      return 1
+                    else:  # if total_night_calls > 74.50
+                      return 0
+                  else:  # if total_night_minutes > 230.05
+                    return 1
+            else:  # if total_eve_calls > 112.50
+              if total_eve_calls <= 117.50:
+                if total_intl_charge <= 4.30:
+                  if total_day_charge <= 34.28:
+                    if total_day_charge <= 34.01:
+                      if total_night_charge <= 7.73:
+                        return 0
+                      else:  # if total_night_charge > 7.73
+                        if total_intl_minutes <= 8.85:
+                          return 0
+                        else:  # if total_intl_minutes > 8.85
+                          if total_eve_calls <= 114.50:
+                            if total_eve_minutes <= 181.90:
+                              return 0
+                            else:  # if total_eve_minutes > 181.90
+                              if total_eve_minutes <= 214.65:
+                                return 1
+                              else:  # if total_eve_minutes > 214.65
+                                if area_code <= 1.50:
+                                  return 0
+                                else:  # if area_code > 1.50
+                                  return 1
+                          else:  # if total_eve_calls > 114.50
+                            if total_night_calls <= 84.00:
+                              if total_intl_calls <= 4.50:
+                                return 0
+                              else:  # if total_intl_calls > 4.50
+                                return 1
+                            else:  # if total_night_calls > 84.00
+                              return 0
+                    else:  # if total_day_charge > 34.01
+                      return 1
+                  else:  # if total_day_charge > 34.28
+                    return 0
+                else:  # if total_intl_charge > 4.30
+                  return 1
+              else:  # if total_eve_calls > 117.50
+                if total_intl_calls <= 14.50:
+                  if state <= 31.50:
+                    if account_length <= 158.50:
+                      if total_day_calls <= 94.50:
+                        if total_eve_calls <= 129.50:
+                          return 0
+                        else:  # if total_eve_calls > 129.50
+                          if account_length <= 102.50:
+                            if total_night_calls <= 113.50:
+                              if total_night_minutes <= 111.40:
+                                return 0
+                              else:  # if total_night_minutes > 111.40
+                                return 1
+                            else:  # if total_night_calls > 113.50
+                              return 0
+                          else:  # if account_length > 102.50
+                            return 0
+                      else:  # if total_day_calls > 94.50
+                        return 0
+                    else:  # if account_length > 158.50
+                      if account_length <= 173.50:
+                        if total_intl_minutes <= 9.40:
+                          return 1
+                        else:  # if total_intl_minutes > 9.40
+                          if state <= 26.50:
+                            return 0
+                          else:  # if state > 26.50
+                            return 1
+                      else:  # if account_length > 173.50
+                        return 0
+                  else:  # if state > 31.50
+                    return 0
+                else:  # if total_intl_calls > 14.50
+                  return 1
+        else:  # if total_eve_minutes > 325.95
+          if total_eve_calls <= 102.50:
+            if total_night_calls <= 71.00:
+              return 0
+            else:  # if total_night_calls > 71.00
+              return 1
+          else:  # if total_eve_calls > 102.50
+            return 0
+      else:  # if total_day_charge > 37.72
+        if total_eve_minutes <= 267.10:
+          if total_eve_minutes <= 242.55:
+            if total_day_calls <= 109.50:
+              if total_intl_minutes <= 15.10:
+                if total_day_charge <= 37.76:
+                  return 1
+                else:  # if total_day_charge > 37.76
+                  if total_intl_calls <= 2.50:
+                    if total_day_calls <= 105.00:
+                      if total_eve_minutes <= 139.30:
+                        if total_night_minutes <= 184.70:
+                          return 0
+                        else:  # if total_night_minutes > 184.70
+                          return 1
+                      else:  # if total_eve_minutes > 139.30
+                        if account_length <= 24.00:
+                          return 1
+                        else:  # if account_length > 24.00
+                          return 0
+                    else:  # if total_day_calls > 105.00
+                      if total_day_minutes <= 242.00:
+                        return 1
+                      else:  # if total_day_minutes > 242.00
+                        return 0
+                  else:  # if total_intl_calls > 2.50
+                    if total_intl_calls <= 4.50:
+                      return 0
+                    else:  # if total_intl_calls > 4.50
+                      if total_day_calls <= 93.50:
+                        if total_day_calls <= 90.50:
+                          if total_day_minutes <= 226.05:
+                            if total_day_charge <= 38.04:
+                              return 0
+                            else:  # if total_day_charge > 38.04
+                              return 1
+                          else:  # if total_day_minutes > 226.05
+                            return 0
+                        else:  # if total_day_calls > 90.50
+                          if total_eve_minutes <= 184.25:
+                            return 0
+                          else:  # if total_eve_minutes > 184.25
+                            if total_eve_minutes <= 220.35:
+                              return 1
+                            else:  # if total_eve_minutes > 220.35
+                              return 0
+                      else:  # if total_day_calls > 93.50
+                        return 0
+              else:  # if total_intl_minutes > 15.10
+                if total_intl_charge <= 4.20:
+                  return 1
+                else:  # if total_intl_charge > 4.20
+                  return 0
+            else:  # if total_day_calls > 109.50
+              return 0
+          else:  # if total_eve_minutes > 242.55
+            if total_eve_calls <= 103.00:
+              if total_eve_minutes <= 251.25:
+                return 1
+              else:  # if total_eve_minutes > 251.25
+                if total_day_charge <= 41.18:
+                  return 0
+                else:  # if total_day_charge > 41.18
+                  return 1
+            else:  # if total_eve_calls > 103.00
+              return 0
+        else:  # if total_eve_minutes > 267.10
+          if voice_mail_plan <= 0.50:
+            if total_intl_calls <= 0.50:
+              return 0
+            else:  # if total_intl_calls > 0.50
+              return 1
+          else:  # if voice_mail_plan > 0.50
+            return 0
+    else:  # if international_plan > 0.50
+      if total_intl_calls <= 2.50:
+        return 1
+      else:  # if total_intl_calls > 2.50
+        if total_intl_minutes <= 13.05:
+          if total_night_minutes <= 84.40:
+            return 1
+          else:  # if total_night_minutes > 84.40
+            if total_eve_charge <= 23.47:
+              return 0
+            else:  # if total_eve_charge > 23.47
+              if total_eve_charge <= 23.72:
+                return 1
+              else:  # if total_eve_charge > 23.72
+                return 0
+        else:  # if total_intl_minutes > 13.05
+          return 1
+  else:  # if number_customer_service_calls > 3.50
+    if total_day_charge <= 25.32:
+      return 1
+    else:  # if total_day_charge > 25.32
+      if total_day_charge <= 29.34:
+        if total_eve_charge <= 16.36:
+          return 1
+        else:  # if total_eve_charge > 16.36
+          if total_night_minutes <= 171.05:
+            if total_night_calls <= 108.50:
+              return 1
+            else:  # if total_night_calls > 108.50
+              return 0
+          else:  # if total_night_minutes > 171.05
+            if account_length <= 62.00:
+              return 1
+            else:  # if account_length > 62.00
+              return 0
+      else:  # if total_day_charge > 29.34
+        if total_eve_charge <= 12.48:
+          if total_night_minutes <= 235.80:
+            if total_intl_charge <= 2.96:
+              return 1
+            else:  # if total_intl_charge > 2.96
+              if total_day_charge <= 34.12:
+                return 1
+              else:  # if total_day_charge > 34.12
+                return 0
+          else:  # if total_night_minutes > 235.80
+            return 0
+        else:  # if total_eve_charge > 12.48
+          if total_night_calls <= 108.50:
+            if total_eve_calls <= 138.00:
+              if total_eve_calls <= 68.00:
+                if total_intl_charge <= 2.62:
+                  return 1
+                else:  # if total_intl_charge > 2.62
+                  return 0
+              else:  # if total_eve_calls > 68.00
+                return 0
+            else:  # if total_eve_calls > 138.00
+              return 1
+          else:  # if total_night_calls > 108.50
+            if total_intl_minutes <= 8.45:
+              return 1
+            else:  # if total_intl_minutes > 8.45
+              if total_day_calls <= 108.00:
+                return 0
+              else:  # if total_day_calls > 108.00
+                if area_code <= 1.50:
+                  if international_plan <= 0.50:
+                    return 0
+                  else:  # if international_plan > 0.50
+                    return 1
+                else:  # if area_code > 1.50
+                  return 1
+else:  # if total_day_minutes > 249.60
+  if voice_mail_plan <= 0.50:
+    if total_eve_minutes <= 201.05:
+      if total_day_minutes <= 285.50:
+        if total_night_minutes <= 189.65:
+          if international_plan <= 0.50:
+            return 0
+          else:  # if international_plan > 0.50
+            if total_day_charge <= 43.51:
+              return 0
+            else:  # if total_day_charge > 43.51
+              if number_customer_service_calls <= 3.50:
+                return 1
+              else:  # if number_customer_service_calls > 3.50
+                return 0
+        else:  # if total_night_minutes > 189.65
+          if total_day_minutes <= 275.25:
+            if total_eve_calls <= 128.50:
+              if total_eve_minutes <= 183.75:
+                return 0
+              else:  # if total_eve_minutes > 183.75
+                if total_day_charge <= 44.12:
+                  if total_intl_minutes <= 10.35:
+                    return 0
+                  else:  # if total_intl_minutes > 10.35
+                    return 1
+                else:  # if total_day_charge > 44.12
+                  return 1
+            else:  # if total_eve_calls > 128.50
+              return 1
+          else:  # if total_day_minutes > 275.25
+            return 1
+      else:  # if total_day_minutes > 285.50
+        if total_eve_charge <= 11.75:
+          if total_day_minutes <= 305.70:
+            return 0
+          else:  # if total_day_minutes > 305.70
+            return 1
+        else:  # if total_eve_charge > 11.75
+          if total_night_minutes <= 145.05:
+            if total_eve_calls <= 100.50:
+              return 1
+            else:  # if total_eve_calls > 100.50
+              return 0
+          else:  # if total_night_minutes > 145.05
+            return 1
+    else:  # if total_eve_minutes > 201.05
+      if total_night_charge <= 7.62:
+        if total_day_minutes <= 277.75:
+          if total_eve_calls <= 98.50:
+            if total_night_calls <= 115.50:
+              return 1
+            else:  # if total_night_calls > 115.50
+              return 0
+          else:  # if total_eve_calls > 98.50
+            if total_eve_calls <= 127.00:
+              if total_day_calls <= 70.00:
+                return 1
+              else:  # if total_day_calls > 70.00
+                return 0
+            else:  # if total_eve_calls > 127.00
+              return 1
+        else:  # if total_day_minutes > 277.75
+          return 1
+      else:  # if total_night_charge > 7.62
+        if total_day_minutes <= 253.10:
+          if state <= 24.50:
+            return 1
+          else:  # if state > 24.50
+            return 0
+        else:  # if total_day_minutes > 253.10
+          return 1
+  else:  # if voice_mail_plan > 0.50
+    if international_plan <= 0.50:
+      return 0
+    else:  # if international_plan > 0.50
+      if number_customer_service_calls <= 0.50:
+        return 0
+      else:  # if number_customer_service_calls > 0.50
+        return 1

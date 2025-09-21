@@ -11,6 +11,9 @@ Churn prediction helps telecom companies identify customers likely to leave, all
 3. Split the dataset into training and testing sets, and implemented the K-Nearest Neighbors (KNN) algorithm for prediction. Results were saved and evaluated.
 4. Applied Leave-One-Out Cross-Validation (LOOCV) with KNN to assess model performance on each individual sample.
 5. Performed Leave-N-Out Cross-Validation with configurable test size to evaluate the model across multiple folds. Generated detailed metrics including TP, TN, FP, FN, accuracy, recall, precision, F1 score, and others.
+Implemented Decision Tree models for classification:
+    - **Python version:** Used `sklearn.tree.DecisionTreeClassifier` to train and evaluate a decision tree on the dataset. Generated metrics include accuracy, sensitivity (recall), specificity, precision, NPV, F1 score, and error rate.
+    - **R version:** Used `rpart` and `rpart.plot` packages to build and visualize a decision tree. Evaluated the model using the same metrics to compare performance with Python and KNN results.
 
 ## Work in Progress
 The project is currently in progress.
